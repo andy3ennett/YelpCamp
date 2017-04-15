@@ -6,15 +6,15 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 
 var campgrounds = [
-        {name: "Salmon Creek", image: "https://unsplash.com/search/camping?photo=5Rhl-kSRydQ"},
-        {name: "Granite Hill", image: "https://unsplash.com/search/camping?photo=3fJOXw1RbPo"},
-        {name: "Traveller's Rest", image: "https://unsplash.com/search/camping?photo=K9olx8OF36A"},
-        {name: "Salmon Creek", image: "https://unsplash.com/search/camping?photo=5Rhl-kSRydQ"},
-        {name: "Granite Hill", image: "https://unsplash.com/search/camping?photo=3fJOXw1RbPo"},
-        {name: "Traveller's Rest", image: "https://unsplash.com/search/camping?photo=K9olx8OF36A"},
-        {name: "Salmon Creek", image: "https://unsplash.com/search/camping?photo=5Rhl-kSRydQ"},
-        {name: "Granite Hill", image: "https://unsplash.com/search/camping?photo=3fJOXw1RbPo"},
-        {name: "Traveller's Rest", image: "https://unsplash.com/search/camping?photo=K9olx8OF36A"}
+        {name: "Salmon Creek", image: "https://farm9.staticflickr.com/8442/7962474612_bf2baf67c0.jpg"},
+        {name: "Granite Hill", image: "https://farm1.staticflickr.com/60/215827008_6489cd30c3.jpg"},
+        {name: "Traveller's Rest", image: "https://farm7.staticflickr.com/6057/6234565071_4d20668bbd.jpg"},
+        {name: "Salmon Creek", image: "https://farm9.staticflickr.com/8442/7962474612_bf2baf67c0.jpg"},
+        {name: "Granite Hill", image: "https://farm1.staticflickr.com/60/215827008_6489cd30c3.jpg"},
+        {name: "Traveller's Rest", image: "https://farm7.staticflickr.com/6057/6234565071_4d20668bbd.jpg"},
+        {name: "Salmon Creek", image: "https://farm9.staticflickr.com/8442/7962474612_bf2baf67c0.jpg"},
+        {name: "Granite Hill", image: "https://farm1.staticflickr.com/60/215827008_6489cd30c3.jpg"},
+        {name: "Traveller's Rest", image: "https://farm7.staticflickr.com/6057/6234565071_4d20668bbd.jpg"}
 ];
 
 app.get("/", function(req, res){
