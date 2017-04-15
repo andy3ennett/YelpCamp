@@ -1,0 +1,20 @@
+{
+  "name": "yelp_camp",
+  "version": "1.0.0",
+  "description": "Web app for YelpCamp - used to market and list campgrounds and take bookings",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andy3ennett/YelpCamp/"
+  },
+  "author": "Andy Bennett",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  }
+}
