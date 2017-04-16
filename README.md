@@ -5,3 +5,4 @@ v1 - basic setup of the application and web template utilising an array to test 
 
 v2 - connection to Mongodb initialized - mongoose required, add campgrounds feature added to listings page
 
+v3 - comments feature added, code refactored; models directory added, require statements updated etc.
